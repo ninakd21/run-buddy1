@@ -37,12 +37,12 @@ header nav {
   margin: 7px 0;
 }
 
-header nav ul  {
+header nav ul {
   display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
 }
 
 header nav ul li a {
@@ -51,17 +51,19 @@ header nav ul li a {
   font-size: 1.55vw;
 }
 
+
 /* HEADER / NAVBAR STYLES END */
 
 
 
 /* FOOTER STYLES START */
-footer {
+.footer {
   background: #fce138;
   padding: 40px 35px;
-  width: 100%;
+  display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  width: 100%;
 }
 
 footer h2 {
@@ -72,6 +74,7 @@ footer h2 {
 
 footer div {
   line-height: 1.5;
+  text-align: right;
 }
 
 footer a {
@@ -83,6 +86,7 @@ footer a {
 section {
   padding: 60px;
 }
+/* END FOOTER STYLES */
 
 /* HERO STYLES START */
 .hero {
@@ -172,14 +176,13 @@ section {
 
 /* WHAT WE DO STYLES */
 
-
 .intro p {
   line-height: 1.7;
   color: #39a6b2;
   width: 80%;
   margin: 0 auto;
   font-size: 20px;
-  text-align: center
+  text-align: center;
 }
 /* WHAT YOU DO STYLES END */
 
@@ -207,7 +210,7 @@ section {
 
 .step-text p {
   color: #39a6b2;
-  font-size: 18px;
+  font-size: 23px;
 }
 
 .step-text h4 {
