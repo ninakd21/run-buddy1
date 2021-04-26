@@ -46,18 +46,17 @@ header nav ul {
 }
 
 header nav ul li a {
-  margin: 0 30px;
+  padding: 10px 15px;
   font-weight: lighter;
   font-size: 1.55vw;
 }
-
 
 /* HEADER / NAVBAR STYLES END */
 
 
 
 /* FOOTER STYLES START */
-.footer {
+.ooter {
   background: #fce138;
   padding: 40px 35px;
   display: flex;
@@ -96,6 +95,7 @@ section {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  align-items: flex-start;
 }
 
 .hero-cta {
@@ -156,7 +156,7 @@ section {
 
 /* SECTION TITLE STYLES START */
 .section-title {
-  font-size: 55px;
+  font-size: 48px;
   border-bottom: 3px solid;
   color: #024e76;
   padding-bottom: 20px;
@@ -208,6 +208,23 @@ section {
   flex: 1 30%;
 }
 
+.step-info {
+  flex: 2 70%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.step-img {
+  flex: 1 12%;
+  margin-right: 20px;
+}
+
+.step-img img {
+  max-width: 100%;
+}
+.step-text {
+  flex: 12;
+}
 .step-text p {
   color: #39a6b2;
   font-size: 23px;
@@ -219,25 +236,6 @@ section {
   color: #024e76;
 }
 
-.step-info {
-  flex: 2 70%;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-}
-
-.step-img {
-  flex: 1 12%;
-  margin-right: 20px;
-}
-
-.step-text {
-  flex: 12;
-}
-
-.step-img img {
-  max-width: 100%;
-}
 /* WHAT YOU DO STYLES END */
 
 /* MEET THE TRAINERS START */
@@ -285,6 +283,10 @@ section {
   background: #024e76;
 }
 
+.contact h2 {
+  color: #fce138;
+}
+
 .contact-info {
   display: flex;
   justify-content: space-between;
@@ -295,10 +297,6 @@ section {
     flex: 1;
     margin: 15px;
   }
-
-.contact h2 {
-  color: #fce138;
-}
 
 .contact-info iframe {
 height: 400px;
@@ -318,10 +316,6 @@ height: 400px;
   line-height: 1.5;
   font-size: 16px;
   font-style: normal;
-}
-
-.contact-info a {
-  color: #fce138;
 }
 
 .contact-form input, .contact-form textarea {
@@ -344,6 +338,11 @@ height: 400px;
   padding: 15px 0;
   font-size: 16px;
 }
+
+.contact-info a {
+  color: #fce138;
+}
+
 /* REACH OUT STYLES END */
 
 /* UTILITIES */
